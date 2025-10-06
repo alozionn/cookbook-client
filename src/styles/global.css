@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+
+.fancy-border-tab {
+    border-image-source: url('../../assets/backgrounds/background1.png');
+    border-image-slice: 6 6 20 6 fill;
+    border-image-width: 10px 10px 0px 10px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-style: solid;
+}
+
+.fancy-border-tab-content {
+    border-image-source: url('../../assets/backgrounds/background1.png');
+    border-image-slice: 6 6 6 6 fill;
+    border-image-width: 10px 10px 10px 10px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-style: solid;
+}
